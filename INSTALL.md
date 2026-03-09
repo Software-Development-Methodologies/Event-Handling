@@ -75,3 +75,48 @@
 # INSTALL
 
 ## Event Handling
+
+This guide explains how to set up, build, and run the project on your local machine.
+
+---
+
+## 1. Prerequisites
+Before you begin, ensure you have the following installed:
+
+**Java Development Kit (JDK):** Version 8 or higher is required for Swing components.
+
+**NetBeans IDE:** It is highly recommended to use NetBeans for the development of the code.
+
+### 1.1 Clone the Repository
+
+Open your terminal or command prompt and run:
+
+```bash
+git clone https://github.com/Software-Development-Methodologies/Event-Handling.git
+cd Event-Handling/src
+```
+
+## 2. Setup and Execution
+1. **Open Project:** Launch NetBeans and open the project directory containing the Exercise 4 source files.
+2. **External Documentation:** For additional information on how specific classes work, refer to the official Oracle documentation.
+3. **Build:** Right-click the project and select **Build**.
+4. **Run:** Press `F6` or click the **Run Project** button.
+
+## 3. Core Functionality
+The application focuses on the following cognitive subjects:
+- **Event Management:** Handling user interactions.
+- **Listener Interfaces:** Using `ActionListener` for buttons and `WindowListener` for frame control.
+- **Adapter Classes:** Implementing window closing events efficiently.
+
+## 4. Key Implementation Steps
+- **Conversion:** Use `Integer.parseInt(String)` to convert input from TextFields into integers.
+- **Validation:** Before executing operations, check that fields are filled and contain valid integers.
+- **Error Handling:** If validation fails, display an appropriate error message in the application's Label.
+
+---
+
+## 5. Implementation Details
+
+- **Recommended IDE:** NetBeans.
+- **Window Management:** Handle the window **close (x)** event appropriately depending on the specific frame used.
+- **User Input:** Text fields return `String`; convert to integers using `Integer.parseInt()` for arithmetic operations.
